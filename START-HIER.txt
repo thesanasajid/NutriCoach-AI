@@ -1,0 +1,102 @@
+===============================================================
+  NutriCoach T2D  -  How to start  /  So startest du
+===============================================================
+
+--------------------------- ENGLISH ---------------------------
+
+WINDOWS (easiest, no installation)
+  1. Unpack this folder completely (right-click the ZIP -> "Extract All").
+     Do NOT run the app from inside the ZIP - it will not work.
+  2. Double-click  NutriCoach.exe
+  3. FIRST LAUNCH ONLY: Windows may show a blue box
+     "Windows protected your PC".
+     -> Click "More info"  ->  "Run anyway".
+     This appears because the app is not code-signed (it is a student
+     project, not a commercial product). Everything runs on your own
+     computer; nothing is sent anywhere.
+  4. The first start can take 10-30 seconds (Windows scans the file).
+     A green splash screen appears while it loads. Please wait - do not
+     double-click again.
+  5. The app opens in its own window. Switch language top right: EN / DE.
+     Closing the window ends the app automatically.
+
+IF NOTHING HAPPENS AT ALL
+  * Your browser or antivirus may have deleted/blocked the .exe during
+    download. Check: right-click NutriCoach.exe -> Properties ->
+    if there is an "Unblock" checkbox at the bottom, tick it -> OK.
+  * Still nothing? Look for a file called  error.log  next to the .exe -
+    it says what went wrong.
+  * Or simply use the Python version below - it always works.
+
+MAC, LINUX, OR IF THE .EXE IS BLOCKED
+  The .exe only runs on Windows, but the app itself runs everywhere:
+  1. Install Python 3.10 or newer:  https://www.python.org/downloads/
+     (on Windows tick "Add Python to PATH" during setup)
+  2. Open a terminal in this folder and run:
+         python3 app.py          (macOS / Linux)
+         python app.py           (Windows - or double-click start.bat)
+  3. Open  http://localhost:8765  in your browser.
+  No extra packages are needed for the chatbot.
+
+WHAT ELSE IS IN THIS FOLDER
+  README.md ................ full documentation (start here)
+  research/proposal.md ..... research questions, methodology, ethics
+  research/NutriCoach-T2D-slides.pptx ... presentation slides
+  research/output/ ......... statistical results + figures
+  run-analysis.bat ......... re-runs the whole statistics pipeline
+                             (needs: python -m pip install -r requirements.txt)
+
+NOTE
+  Educational research prototype - not medical advice, not a medical
+  device. It deliberately refuses medication and emergency questions.
+
+
+--------------------------- DEUTSCH ---------------------------
+
+WINDOWS (am einfachsten, ohne Installation)
+  1. Diesen Ordner komplett entpacken (Rechtsklick auf die ZIP ->
+     "Alle extrahieren"). NICHT direkt aus der ZIP starten - das geht schief.
+  2. Doppelklick auf  NutriCoach.exe
+  3. NUR BEIM ERSTEN MAL: Windows zeigt eventuell ein blaues Fenster
+     "Der Computer wurde durch Windows geschuetzt".
+     -> Auf "Weitere Informationen" klicken  ->  "Trotzdem ausfuehren".
+     Das kommt, weil das Programm nicht signiert ist (Studienprojekt,
+     kein gekauftes Produkt). Alles laeuft auf deinem eigenen Rechner,
+     es werden keine Daten verschickt.
+  4. Der erste Start kann 10-30 Sekunden dauern (Windows prueft die
+     Datei). Ein gruener Startbildschirm erscheint. Bitte warten und
+     nicht noch einmal doppelklicken.
+  5. Die App oeffnet ein eigenes Fenster. Sprache oben rechts: EN / DE.
+     Fenster schliessen beendet die App automatisch.
+
+WENN GAR NICHTS PASSIERT
+  * Browser oder Virenschutz haben die .exe beim Download evtl. blockiert
+    oder geloescht. Pruefen: Rechtsklick auf NutriCoach.exe ->
+    Eigenschaften -> falls unten ein Haken "Zulassen"/"Unblock" ist,
+    setzen -> OK.
+  * Immer noch nichts? Neben der .exe liegt dann eine Datei  error.log  -
+    darin steht, was schiefgelaufen ist.
+  * Oder einfach die Python-Variante unten nehmen - die geht immer.
+
+MAC, LINUX ODER WENN DIE .EXE BLOCKIERT WIRD
+  Die .exe laeuft nur unter Windows, das Programm selbst laeuft ueberall:
+  1. Python 3.10 oder neuer installieren: https://www.python.org/downloads/
+     (unter Windows beim Setup "Add Python to PATH" ankreuzen)
+  2. In diesem Ordner ein Terminal oeffnen und starten:
+         python3 app.py          (macOS / Linux)
+         python app.py           (Windows - oder Doppelklick start.bat)
+  3. Im Browser  http://localhost:8765  oeffnen.
+  Fuer den Chatbot sind keine Zusatz-Pakete noetig.
+
+WAS SONST IN DIESEM ORDNER LIEGT
+  README.md ................ komplette Dokumentation (bester Einstieg)
+  research/proposal.md ..... Forschungsfragen, Methodik, Ethik
+  research/NutriCoach-T2D-slides.pptx ... Praesentations-Folien
+  research/output/ ......... statistische Ergebnisse + Diagramme
+  run-analysis.bat ......... rechnet die komplette Statistik neu
+                             (braucht: python -m pip install -r requirements.txt)
+
+HINWEIS
+  Lern-/Forschungs-Prototyp - keine medizinische Beratung, kein
+  Medizinprodukt. Medikamenten- und Notfall-Fragen werden bewusst
+  nicht beantwortet.

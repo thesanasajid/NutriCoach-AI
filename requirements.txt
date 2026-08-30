@@ -1,0 +1,9 @@
+# Only needed for the statistical analysis (research/).
+# The chatbot itself (app.py) runs on the Python standard library alone.
+numpy
+pandas
+scipy
+matplotlib
+tabulate
+python-pptx   # only for regenerating the slides (research/make_slides.py)
+# For rebuilding NutriCoach.exe: build-exe.bat installs PyInstaller automatically.
