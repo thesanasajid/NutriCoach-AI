@@ -1,0 +1,223 @@
+{
+  "_comment": "General, non-personalized nutrition education content for type 2 diabetes, aligned with widely used guidance (ADA Standards of Care / Diabetes Plate Method, NHS & Diabetes UK patient guidance). For research/education only - reviewed wording avoids individual medical advice. Bilingual: keywords/replies carry {en, de}; keyword matching runs over both languages.",
+  "categories": {
+    "bread": {"en": "bread & grains", "de": "Brot & Getreide"},
+    "rice": {"en": "rice & pasta", "de": "Reis & Nudeln"},
+    "potatoes": {"en": "potatoes & starches", "de": "Kartoffeln & Beilagen"},
+    "legumes": {"en": "legumes", "de": "Hülsenfrüchte"},
+    "vegetables": {"en": "vegetables", "de": "Gemüse"},
+    "fruit": {"en": "fruit", "de": "Obst"},
+    "dairy": {"en": "dairy", "de": "Milchprodukte"},
+    "protein": {"en": "protein foods", "de": "Eiweiß"},
+    "nuts": {"en": "nuts & seeds", "de": "Nüsse & Samen"},
+    "drinks": {"en": "drinks", "de": "Getränke"},
+    "sweets": {"en": "sweets & snacks", "de": "Süßes & Snacks"}
+  },
+  "topics": [
+    {
+      "id": "carbs",
+      "keywords": {"en": ["carb", "carbs", "carbohydrate", "carbohydrates", "count carbs"], "de": ["kohlenhydrat", "kohlenhydrate", "kohlenhydraten"]},
+      "reply": {
+        "en": "Carbohydrates are the nutrient with the biggest direct effect on blood glucose - they break down into glucose during digestion.\n\nWhat matters most:\n• **How much**: keeping carb portions consistent and moderate at each meal makes glucose easier to predict.\n• **What kind**: whole grains, legumes and vegetables digest slowly; sugary drinks and white flour digest fast.\n• **What with**: eating carbs together with protein, fiber and healthy fat flattens the glucose rise.\n\nYou don't have to avoid carbs - the goal is choosing slower ones and right-sizing portions.",
+        "de": "Kohlenhydrate sind der Nährstoff mit der größten direkten Wirkung auf den Blutzucker - sie werden bei der Verdauung zu Glukose abgebaut.\n\nWorauf es ankommt:\n• **Wie viel**: gleichmäßige, moderate Kohlenhydrat-Portionen pro Mahlzeit machen den Blutzucker planbarer.\n• **Welche Art**: Vollkorn, Hülsenfrüchte und Gemüse werden langsam verdaut; Zuckergetränke und Weißmehl schnell.\n• **Womit**: Kohlenhydrate zusammen mit Eiweiß, Ballaststoffen und gesundem Fett flachen den Anstieg ab.\n\nDu musst Kohlenhydrate nicht meiden - das Ziel sind langsamere Sorten und passende Portionen."
+      },
+      "source": "ADA Standards of Care - nutrition therapy"
+    },
+    {
+      "id": "glycemic_index",
+      "keywords": {"en": ["glycemic", "glycaemic", "glycemic index", "low gi", "high gi", "gi mean"], "de": ["glykämisch", "glykämische", "glykämischen", "glykämischer", "glykämischer index", "glykämische index", "glyx", "niedriger gi", "hoher gi"]},
+      "reply": {
+        "en": "The **glycemic index (GI)** ranks carbohydrate foods by how fast they raise blood glucose, on a scale up to 100:\n\n• **Low (55 or less)**: lentils, beans, most whole fruit, milk products, al-dente pasta\n• **Medium (56-69)**: couscous, sweet potato, honey\n• **High (70+)**: white bread, cornflakes, white rice, mashed potatoes, sugary drinks\n\nTwo caveats: portion size still matters (watermelon is high GI but a slice has few carbs), and GI drops when you combine foods with protein, fat or fiber. Use it as a compass, not a law.",
+        "de": "Der **glykämische Index (GI)** ordnet kohlenhydrathaltige Lebensmittel danach, wie schnell sie den Blutzucker heben - auf einer Skala bis 100:\n\n• **Niedrig (bis 55)**: Linsen, Bohnen, die meisten ganzen Früchte, Milchprodukte, Nudeln al dente\n• **Mittel (56-69)**: Couscous, Süßkartoffel, Honig\n• **Hoch (ab 70)**: Weißbrot, Cornflakes, weißer Reis, Kartoffelpüree, Zuckergetränke\n\nZwei Einschränkungen: Die Portionsgröße zählt trotzdem (Wassermelone hat einen hohen GI, aber eine Scheibe wenig Kohlenhydrate), und der GI sinkt, wenn man mit Eiweiß, Fett oder Ballaststoffen kombiniert. Nutze ihn als Kompass, nicht als Gesetz."
+      },
+      "source": "International GI tables (Atkinson et al.); ADA nutrition guidance"
+    },
+    {
+      "id": "fiber",
+      "keywords": {"en": ["fiber", "fibre", "wholegrain", "whole grain", "whole grains"], "de": ["ballaststoff", "ballaststoffe", "vollkorn"]},
+      "reply": {
+        "en": "Fiber is your quiet ally: it slows digestion, flattens the glucose rise after meals, keeps you full and feeds a healthy gut.\n\nAiming for roughly **30 g per day** is a common target. Easy ways to get there:\n• Swap white bread/rice/pasta for whole grain versions\n• Add legumes (lentils, beans, chickpeas) a few times a week\n• Vegetables with every meal, fruit with the skin on\n• Nuts and seeds as snacks\n\nIncrease gradually and drink enough water.",
+        "de": "Ballaststoffe sind der stille Verbündete: Sie bremsen die Verdauung, flachen den Blutzucker-Anstieg nach dem Essen ab, sättigen und tun dem Darm gut.\n\nRund **30 g pro Tag** sind ein gängiges Ziel. Einfache Wege dorthin:\n• Weißbrot/Reis/Nudeln gegen Vollkorn-Versionen tauschen\n• Ein paar Mal pro Woche Hülsenfrüchte (Linsen, Bohnen, Kichererbsen)\n• Gemüse zu jeder Mahlzeit, Obst mit Schale\n• Nüsse und Samen als Snack\n\nLangsam steigern und genug Wasser trinken."
+      },
+      "source": "NHS / Diabetes UK dietary guidance"
+    },
+    {
+      "id": "plate_method",
+      "keywords": {"en": ["plate", "plate method", "portion", "portions", "portion size", "serving", "how much should i eat"], "de": ["teller", "tellermethode", "teller methode", "portion", "portionen", "portionsgröße", "wie viel soll ich essen"]},
+      "reply": {
+        "en": "The **Diabetes Plate Method** is the simplest portion tool - no counting, no weighing. Take a normal dinner plate:\n\n• **1/2 plate**: non-starchy vegetables (broccoli, salad, peppers, zucchini...)\n• **1/4 plate**: lean protein (chicken, fish, eggs, tofu, legumes)\n• **1/4 plate**: quality carbs (whole grains, potatoes, brown rice)\n• Plus water or another zero-sugar drink\n\nIf you only remember one thing from this bot, make it this plate.",
+        "de": "Die **Teller-Methode** ist das einfachste Portions-Werkzeug - kein Zählen, kein Wiegen. Nimm einen normalen Essteller:\n\n• **1/2 Teller**: stärkearmes Gemüse (Brokkoli, Salat, Paprika, Zucchini...)\n• **1/4 Teller**: mageres Eiweiß (Hähnchen, Fisch, Eier, Tofu, Hülsenfrüchte)\n• **1/4 Teller**: gute Kohlenhydrate (Vollkorn, Kartoffeln, Vollkornreis)\n• Dazu Wasser oder ein anderes zuckerfreies Getränk\n\nWenn du dir von diesem Bot nur eine Sache merkst, dann diesen Teller."
+      },
+      "source": "ADA Diabetes Plate Method"
+    },
+    {
+      "id": "blood_glucose",
+      "keywords": {"en": ["blood sugar", "blood glucose", "hba1c", "a1c", "glucose level", "glucose levels", "spike", "spikes"], "de": ["blutzucker", "blutzuckerwert", "blutzuckerwerte", "langzeitwert", "zuckerwert", "blutzuckerspitzen"]},
+      "reply": {
+        "en": "A quick map of the numbers people talk about:\n\n• **Blood glucose** is the moment-to-moment value; it naturally rises after meals.\n• **HbA1c** is the 2-3 month average - the main long-term control marker your care team tracks.\n\nFood-wise, the levers that flatten after-meal rises are: smaller carb portions, lower-GI choices, fiber, eating carbs together with protein/fat, and a short walk after meals.\n\nWhat *your* target numbers should be is individual - that conversation belongs with your doctor or diabetes educator, not with this prototype.",
+        "de": "Eine kurze Landkarte der Werte, über die alle reden:\n\n• **Blutzucker** ist der Moment-Wert; nach dem Essen steigt er ganz natürlich.\n• **HbA1c** ist der 2-3-Monats-Durchschnitt - der wichtigste Langzeit-Marker, den dein Behandlungsteam verfolgt.\n\nBeim Essen flachen diese Hebel die Spitzen ab: kleinere Kohlenhydrat-Portionen, niedrigerer GI, Ballaststoffe, Kohlenhydrate zusammen mit Eiweiß/Fett - und ein kurzer Spaziergang nach dem Essen.\n\nWelche Zielwerte für *dich* gelten, ist individuell - dieses Gespräch gehört zu Arzt/Ärztin oder Diabetesberatung, nicht zu diesem Prototyp."
+      },
+      "source": "ADA Standards of Care"
+    },
+    {
+      "id": "drinks",
+      "keywords": {"en": ["drink", "drinks", "beverage", "beverages", "thirsty", "what can i drink"], "de": ["getränk", "getränke", "trinken", "durst", "was kann ich trinken"]},
+      "reply": {
+        "en": "Drinks are the fastest win in a diabetes-friendly diet:\n\n• **Anytime**: water, sparkling water, unsweetened coffee and tea\n• **Okay as a swap**: zero-sugar soft drinks (better than sugary ones; water is still the best default)\n• **Careful**: fruit juice and smoothies - even 'no added sugar' juice is concentrated fruit sugar without the fiber\n• **Avoid as a habit**: regular soda, sweetened iced tea, energy drinks - a single can is ~35 g of fast sugar\n\nAlcohol is its own topic - ask me about it if you want.",
+        "de": "Getränke sind der schnellste Gewinn in einer diabetesfreundlichen Ernährung:\n\n• **Jederzeit**: Wasser, Sprudel, ungesüßter Kaffee und Tee\n• **Okay als Ersatz**: zuckerfreie Softdrinks (besser als gezuckerte; Wasser bleibt der beste Standard)\n• **Vorsicht**: Fruchtsaft und Smoothies - auch 'ohne Zuckerzusatz' ist Saft konzentrierter Fruchtzucker ohne Ballaststoffe\n• **Als Gewohnheit meiden**: normale Limo, gesüßter Eistee, Energy-Drinks - eine Dose sind ~35 g schneller Zucker\n\nAlkohol ist ein eigenes Thema - frag mich gern danach."
+      },
+      "source": "Diabetes UK / NHS guidance"
+    },
+    {
+      "id": "fruit",
+      "keywords": {"en": ["fruit", "fruits", "is fruit ok", "fruit sugar"], "de": ["obst", "früchte", "fruchtzucker"]},
+      "reply": {
+        "en": "Yes, fruit belongs in a diabetes-friendly diet - the fiber and water in whole fruit slow the sugar down.\n\nRules of thumb:\n• **2 portions a day**, one portion = what fits in your palm (1 apple, a handful of berries)\n• **Best picks**: berries, apples, oranges, pears - low to medium GI\n• **Portion-aware**: banana, mango, grapes\n• **Treat like sweets**: dried fruit (dates, raisins) and fruit juice - the fiber/water protection is gone\n\nSpreading fruit across the day beats eating it all at once.",
+        "de": "Ja, Obst gehört in eine diabetesfreundliche Ernährung - Ballaststoffe und Wasser der ganzen Frucht bremsen den Zucker.\n\nFaustregeln:\n• **2 Portionen am Tag**, eine Portion = was in deine Handfläche passt (1 Apfel, eine Handvoll Beeren)\n• **Beste Wahl**: Beeren, Äpfel, Orangen, Birnen - niedriger bis mittlerer GI\n• **Portionsbewusst**: Banane, Mango, Trauben\n• **Wie Süßigkeiten behandeln**: Trockenobst (Datteln, Rosinen) und Fruchtsaft - der Ballaststoff-Schutz fehlt\n\nÜber den Tag verteilt wirkt Obst sanfter als alles auf einmal."
+      },
+      "source": "Diabetes UK fruit guidance"
+    },
+    {
+      "id": "alcohol",
+      "keywords": {"en": ["alcohol", "drinking", "drunk", "party"], "de": ["alkohol", "feiern"]},
+      "reply": {
+        "en": "Alcohol and type 2 diabetes can go together, but with care:\n\n• Alcohol can cause **delayed low blood sugar**, especially with insulin or sulfonylurea medication - this is the key risk to discuss with your care team.\n• Never drink on an empty stomach; have it with a meal.\n• Dry wine and spirits with zero-sugar mixers carry less sugar than beer, cocktails or liqueurs.\n• General moderation guidance applies (and less is better).\n\nBecause the medication interaction is individual, please confirm what's safe for you with your doctor.",
+        "de": "Alkohol und Typ-2-Diabetes können zusammenpassen, aber mit Vorsicht:\n\n• Alkohol kann **verzögerte Unterzuckerungen** auslösen, besonders mit Insulin oder Sulfonylharnstoffen - das ist das wichtigste Risiko fürs Gespräch mit deinem Behandlungsteam.\n• Nie auf leeren Magen trinken; immer zum Essen.\n• Trockener Wein und Spirituosen mit zuckerfreien Mixern enthalten weniger Zucker als Bier, Cocktails oder Liköre.\n• Die allgemeinen Maßhalte-Empfehlungen gelten (weniger ist besser).\n\nWeil die Wechselwirkung mit Medikamenten individuell ist: Bitte mit Arzt/Ärztin klären, was für dich sicher ist."
+      },
+      "source": "ADA / Diabetes UK alcohol guidance"
+    },
+    {
+      "id": "sweeteners",
+      "keywords": {"en": ["sweetener", "sweeteners", "stevia", "aspartame", "sucralose", "xylitol", "erythritol", "sugar substitute"], "de": ["süßstoff", "süßstoffe", "zuckerersatz", "süßungsmittel", "erythrit", "xylit"]},
+      "reply": {
+        "en": "Non-nutritive sweeteners (stevia, aspartame, sucralose, erythritol...) don't raise blood glucose in normal amounts, and major diabetes organizations consider them an acceptable tool for replacing sugar - especially in drinks.\n\nTwo honest footnotes:\n• They keep the taste for very sweet things alive; gradually needing less sweetness is the long-term win.\n• 'Sugar-free' cakes and cookies still contain flour and fat - the label doesn't make them free foods.",
+        "de": "Süßstoffe (Stevia, Aspartam, Sucralose, Erythrit...) heben den Blutzucker in normalen Mengen nicht, und die großen Diabetes-Organisationen halten sie für ein akzeptables Werkzeug, um Zucker zu ersetzen - besonders in Getränken.\n\nZwei ehrliche Fußnoten:\n• Sie halten die Gewöhnung an sehr Süßes am Leben; langfristig gewinnt, wer insgesamt weniger Süße braucht.\n• 'Zuckerfreie' Kuchen und Kekse enthalten trotzdem Mehl und Fett - das Etikett macht sie nicht zu freien Lebensmitteln."
+      },
+      "source": "ADA Standards of Care - nutrition therapy"
+    },
+    {
+      "id": "weight",
+      "keywords": {"en": ["weight", "lose weight", "weight loss", "overweight", "diet plan", "calories"], "de": ["gewicht", "abnehmen", "übergewicht", "kalorien", "diät"]},
+      "reply": {
+        "en": "For many people with type 2 diabetes, weight is the most powerful lever there is: losing around **5% of body weight** measurably improves glucose control, and larger, sustained loss can even put diabetes into remission for some people.\n\nWhat the evidence supports: any eating pattern you can actually sustain - Mediterranean-style, lower-carb, calorie-reduced - combined with regular activity. Crash diets rarely last.\n\nA structured weight program should be planned with your care team, especially if you take glucose-lowering medication.",
+        "de": "Für viele Menschen mit Typ-2-Diabetes ist das Gewicht der stärkste Hebel überhaupt: Schon rund **5 % weniger Körpergewicht** verbessern die Blutzucker-Einstellung messbar, und größere, dauerhafte Abnahme kann den Diabetes bei manchen sogar in Remission bringen.\n\nWas die Evidenz stützt: jedes Essmuster, das du wirklich durchhältst - mediterran, kohlenhydratärmer, kalorienreduziert - kombiniert mit regelmäßiger Bewegung. Crash-Diäten halten selten.\n\nEin strukturiertes Abnehm-Programm gehört mit dem Behandlungsteam geplant, besonders wenn du blutzuckersenkende Medikamente nimmst."
+      },
+      "source": "ADA/EASD consensus report; DiRECT trial (remission research)"
+    },
+    {
+      "id": "exercise",
+      "keywords": {"en": ["exercise", "sport", "walking", "walk", "workout", "gym", "activity"], "de": ["bewegung", "spazieren", "spaziergang", "training", "joggen", "fitnessstudio"]},
+      "reply": {
+        "en": "Movement acts like a second medication for type 2 diabetes - muscles take up glucose during and after activity.\n\nCommon guidance:\n• About **150 minutes per week** of moderate activity (brisk walking counts), spread over at least 3 days\n• Even a **10-15 minute walk after meals** visibly flattens the after-meal glucose rise\n• Strength exercise 2x per week helps long-term glucose control\n\nIf you take glucose-lowering medication, ask your care team how to handle activity safely (hypo risk varies by medication).",
+        "de": "Bewegung wirkt wie ein zweites Medikament bei Typ-2-Diabetes - Muskeln nehmen während und nach der Aktivität Glukose auf.\n\nGängige Empfehlungen:\n• Rund **150 Minuten pro Woche** moderate Bewegung (zügiges Gehen zählt), auf mindestens 3 Tage verteilt\n• Schon ein **10-15-minütiger Spaziergang nach dem Essen** flacht den Anstieg sichtbar ab\n• Krafttraining 2x pro Woche hilft der Langzeit-Einstellung\n\nWenn du blutzuckersenkende Medikamente nimmst, frag dein Behandlungsteam, wie du Bewegung sicher gestaltest (das Unterzucker-Risiko hängt vom Medikament ab)."
+      },
+      "source": "ADA Standards of Care - physical activity"
+    },
+    {
+      "id": "eating_out",
+      "keywords": {"en": ["restaurant", "eating out", "takeaway", "take away", "fast food", "canteen", "order"], "de": ["auswärts essen", "essen gehen", "kantine", "lieferdienst", "imbiss"]},
+      "reply": {
+        "en": "Eating out with type 2 diabetes - workable with a few habits:\n\n• Scan the menu for the **plate method**: something vegetable-heavy plus a protein, with the carb side as the smallest part\n• Ask for dressing/sauce on the side; swap fries for salad or vegetables where possible\n• Water or zero-sugar drinks with the meal\n• Portion trick: decide how much to eat before you start, or box half a large portion\n• One meal doesn't define your week - consistency over perfection.",
+        "de": "Auswärts essen mit Typ-2-Diabetes - machbar mit ein paar Gewohnheiten:\n\n• Die Karte nach der **Teller-Methode** absuchen: etwas Gemüselastiges plus Eiweiß, die Kohlenhydrat-Beilage als kleinster Teil\n• Dressing/Soße extra bestellen; Pommes gegen Salat oder Gemüse tauschen, wo es geht\n• Wasser oder zuckerfreie Getränke zum Essen\n• Portions-Trick: vor dem Start entscheiden, wie viel du isst - oder die halbe große Portion einpacken lassen\n• Eine Mahlzeit macht keine Woche kaputt - Beständigkeit schlägt Perfektion."
+      },
+      "source": "Diabetes UK eating-out guidance"
+    },
+    {
+      "id": "meal_timing",
+      "keywords": {"en": ["skip", "skipping", "meal timing", "when should i eat", "intermittent fasting", "fasting", "late at night", "night eating"], "de": ["mahlzeiten auslassen", "auslassen", "intervallfasten", "fasten", "essenszeiten", "spät essen", "wann soll ich essen"]},
+      "reply": {
+        "en": "Meal timing basics for type 2 diabetes:\n\n• **Regular meals** make glucose easier to predict; grazing all day and huge single meals both make it harder.\n• Skipping meals can backfire - it often leads to overeating later, and with some medications it risks low blood sugar.\n• Front-loading the day (bigger breakfast, lighter dinner) helps some people's glucose profile.\n• Intermittent fasting can work for some, but **only after checking with your care team** - medication timing may need adjusting.",
+        "de": "Essenszeiten-Basics bei Typ-2-Diabetes:\n\n• **Regelmäßige Mahlzeiten** machen den Blutzucker planbarer; Dauersnacken und riesige Einzelmahlzeiten machen es beide schwerer.\n• Mahlzeiten auszulassen geht oft nach hinten los - es führt später zu Überessen, und mit manchen Medikamenten drohen Unterzuckerungen.\n• Den Tag vorne beladen (größeres Frühstück, leichteres Abendessen) hilft manchen Blutzucker-Profilen.\n• Intervallfasten kann für manche funktionieren, aber **nur nach Rücksprache mit dem Behandlungsteam** - Medikamenten-Zeiten müssen eventuell angepasst werden."
+      },
+      "source": "ADA nutrition guidance"
+    },
+    {
+      "id": "low_carb",
+      "keywords": {"en": ["low carb", "keto", "ketogenic", "no carbs", "cut carbs"], "de": ["wenig kohlenhydrate", "kohlenhydrate weglassen", "kohlenhydratarm"]},
+      "reply": {
+        "en": "Lower-carbohydrate eating patterns are a legitimate, evidence-supported option for type 2 diabetes and often improve glucose control - but two things matter:\n\n• **Quality**: 'low carb' built on vegetables, legumes, nuts, fish and healthy fats is very different from one built on processed meat.\n• **Safety**: if you take insulin or other glucose-lowering medication, cutting carbs sharply requires medication adjustment - that must happen with your care team, not on your own.\n\nA moderate step (cutting sugary drinks and halving refined-flour portions) captures much of the benefit with none of the risk.",
+        "de": "Kohlenhydratärmere Essmuster sind eine legitime, evidenzgestützte Option bei Typ-2-Diabetes und verbessern oft die Einstellung - aber zwei Dinge zählen:\n\n• **Qualität**: 'Low Carb' auf Basis von Gemüse, Hülsenfrüchten, Nüssen, Fisch und guten Fetten ist etwas ganz anderes als eines auf Basis von Wurst.\n• **Sicherheit**: Wer Insulin oder andere blutzuckersenkende Medikamente nimmt, braucht beim starken Kohlenhydrat-Kürzen eine Medikamenten-Anpassung - das gehört zum Behandlungsteam, nicht in Eigenregie.\n\nEin moderater Schritt (Zuckergetränke streichen, Weißmehl-Portionen halbieren) holt viel vom Nutzen ganz ohne das Risiko."
+      },
+      "source": "ADA/EASD consensus report on nutrition therapy"
+    },
+    {
+      "id": "breakfast_general",
+      "keywords": {"en": ["breakfast important", "should i eat breakfast"], "de": ["frühstück wichtig", "muss ich frühstücken"]},
+      "reply": {
+        "en": "There's no single rule, but a protein-and-fiber breakfast (eggs, Greek yogurt with berries and nuts, porridge) tends to produce steadier glucose through the morning than a white-bread-and-jam or cereal start. If you prefer not to eat in the morning and your care team is fine with it, that can work too - consistency is what helps most.",
+        "de": "Es gibt keine Einheitsregel, aber ein Eiweiß-und-Ballaststoff-Frühstück (Eier, griechischer Joghurt mit Beeren und Nüssen, Porridge) hält den Blutzucker am Vormittag meist stabiler als ein Start mit Weißbrot und Marmelade oder Zerealien. Wer morgens lieber nichts isst und vom Behandlungsteam grünes Licht hat, kann auch das tun - am meisten hilft Beständigkeit."
+      },
+      "source": "ADA nutrition guidance"
+    }
+  ],
+  "meals": {
+    "intro": {
+      "en": "Here are ideas built on the plate method (half vegetables, quarter protein, quarter quality carbs):",
+      "de": "Hier sind Ideen nach der Teller-Methode (halb Gemüse, ein Viertel Eiweiß, ein Viertel gute Kohlenhydrate):"
+    },
+    "breakfast": {
+      "en": [
+        "**Greek yogurt bowl** - plain Greek yogurt, a handful of blueberries, a spoon of chia seeds and a few walnuts",
+        "**Vegetable omelette** - 2-3 eggs with mushrooms, spinach and tomato, plus one slice of whole grain bread",
+        "**Proper porridge** - oats cooked in milk, topped with strawberries and a spoon of peanut butter (no added sugar)"
+      ],
+      "de": [
+        "**Joghurt-Bowl** - griechischer Naturjoghurt, eine Handvoll Blaubeeren, ein Löffel Chiasamen und ein paar Walnüsse",
+        "**Gemüse-Omelett** - 2-3 Eier mit Pilzen, Spinat und Tomate, dazu eine Scheibe Vollkornbrot",
+        "**Richtiges Porridge** - Haferflocken in Milch gekocht, mit Erdbeeren und einem Löffel Erdnussmus (ohne Zuckerzusatz)"
+      ]
+    },
+    "lunch": {
+      "en": [
+        "**Lentil salad** - lentils with peppers, cucumber, feta and an olive-oil dressing",
+        "**Chicken bowl** - grilled chicken, a fist of bulgur, roasted broccoli and hummus",
+        "**Hearty soup** - bean and vegetable soup with one slice of whole grain bread"
+      ],
+      "de": [
+        "**Linsensalat** - Linsen mit Paprika, Gurke, Feta und Olivenöl-Dressing",
+        "**Hähnchen-Bowl** - gegrilltes Hähnchen, eine Faust Bulgur, Röst-Brokkoli und Hummus",
+        "**Deftige Suppe** - Bohnen-Gemüse-Suppe mit einer Scheibe Vollkornbrot"
+      ]
+    },
+    "dinner": {
+      "en": [
+        "**Salmon plate** - baked salmon, a fist of boiled potatoes, and a big pile of green beans or salad",
+        "**Chickpea curry** - chickpeas and vegetables in tomato-based curry with a small portion of brown rice",
+        "**Stir-fry** - tofu or chicken with lots of vegetables, soy sauce, and a small portion of whole wheat noodles"
+      ],
+      "de": [
+        "**Lachs-Teller** - Ofenlachs, eine Faust Salzkartoffeln und ein großer Berg grüne Bohnen oder Salat",
+        "**Kichererbsen-Curry** - Kichererbsen und Gemüse in Tomaten-Curry mit einer kleinen Portion Vollkornreis",
+        "**Gemüsepfanne** - Tofu oder Hähnchen mit viel Gemüse, Sojasoße und einer kleinen Portion Vollkornnudeln"
+      ]
+    },
+    "snack": {
+      "en": [
+        "A small handful of almonds or walnuts",
+        "Vegetable sticks (pepper, cucumber, carrot) with hummus",
+        "An apple with a spoon of peanut butter",
+        "Plain yogurt with a few berries"
+      ],
+      "de": [
+        "Eine kleine Handvoll Mandeln oder Walnüsse",
+        "Gemüsesticks (Paprika, Gurke, Karotte) mit Hummus",
+        "Ein Apfel mit einem Löffel Erdnussmus",
+        "Naturjoghurt mit ein paar Beeren"
+      ]
+    }
+  },
+  "safety": {
+    "medication": {
+      "en": "I'm deliberately not able to help with medication or insulin questions - doses, timing, combining or changing medication are decisions for your doctor or diabetes team, because they depend on your personal situation.\n\nWhat I *can* help with is general food knowledge: ask me about specific foods, meal ideas, or topics like the glycemic index.\n\nIf your question is urgent, please contact your care team or local medical services now.",
+      "de": "Bei Medikamenten- und Insulin-Fragen helfe ich bewusst nicht - Dosis, Zeitpunkt, Kombination oder Wechsel von Medikamenten sind Entscheidungen für Arzt/Ärztin oder dein Diabetes-Team, weil sie von deiner persönlichen Situation abhängen.\n\nWobei ich helfen *kann*: allgemeines Lebensmittel-Wissen - frag mich nach konkreten Lebensmitteln, Essensideen oder Themen wie dem glykämischen Index.\n\nWenn deine Frage dringend ist, wende dich bitte jetzt an dein Behandlungsteam oder den ärztlichen Bereitschaftsdienst."
+    },
+    "acute": {
+      "en": "This sounds like it could be an acute situation, and a research prototype is the wrong helper for that.\n\n• If you feel unwell right now (shaky, sweaty, confused, faint - possible low blood sugar) or your reading is far outside your usual range: follow the emergency plan from your care team, and when in doubt call your local emergency number.\n• I also can't interpret individual glucose readings - please discuss those with your doctor or diabetes educator.\n\nI'm happy to help with general nutrition questions once everything is okay.",
+      "de": "Das klingt nach einer möglicherweise akuten Situation - und dafür ist ein Forschungs-Prototyp der falsche Helfer.\n\n• Wenn es dir gerade nicht gut geht (zittrig, schwitzig, verwirrt, schwindlig - mögliche Unterzuckerung) oder dein Wert weit außerhalb deines üblichen Bereichs liegt: Folge dem Notfallplan deines Behandlungsteams, und ruf im Zweifel den Notruf 112.\n• Einzelne Blutzucker-Werte kann ich nicht deuten - bitte besprich sie mit Arzt/Ärztin oder Diabetesberatung.\n\nBei allgemeinen Ernährungsfragen helfe ich gern weiter, sobald alles in Ordnung ist."
+    },
+    "crisis": {
+      "en": "I'm just a small nutrition prototype and not the right support for this - but you shouldn't carry it alone. Please reach out to someone you trust, your doctor, or a local crisis line right away. If you are in immediate danger, call your local emergency number.",
+      "de": "Ich bin nur ein kleiner Ernährungs-Prototyp und nicht die richtige Unterstützung dafür - aber du solltest das nicht allein tragen. Bitte wende dich sofort an einen Menschen, dem du vertraust, an Arzt/Ärztin oder an die Telefonseelsorge (0800 111 0 111 oder 0800 111 0 222, kostenlos). Bei unmittelbarer Gefahr ruf den Notruf 112."
+    }
+  }
+}
